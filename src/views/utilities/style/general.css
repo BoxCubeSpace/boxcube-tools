@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+  .h1,
+  h1 {
+    font-size: 4.5rem;
+  }
+}
+.bg-card {
+  /* background-color: #262626; */
+  border-radius: 4px;
+  color: #fafafa;
+  background: rgba(196, 77, 86, 0.15);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+.bg-card-btn {
+  border-radius: 4px;
+  color: #fafafa;
+  background: rgba(196, 77, 86, 0.15);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+}
+
+.bg-card-btn:hover {
+  border-radius: 4px;
+  color: #fafafa;
+  background: rgba(102, 109, 163, 0.35);
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+}

@@ -1,0 +1,41 @@
+*, html {
+  color: #FBFEFF !important;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  /* background: linear-gradient(to bottom right, #5f24ff, #262626, #262626, #5f24ff); */
+  background: radial-gradient(
+      ellipse at top,
+      rgba(109, 54, 54, 0.3) 0%,
+      rgb(255 0 0 / 0%) 70%
+    ),
+    radial-gradient(
+      ellipse at bottom,
+      rgba(255, 48, 72, 0.2) 0%,
+      rgba(0, 0, 0, 0) 70%
+    ),
+    radial-gradient(
+        ellipse at center,
+        rgba(78, 19, 19, 0.5) 0%,
+        rgba(0, 0, 0, 0) 70%
+      )
+      #262626;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: 100vh 100vh, 100vh 100vh, 100vh 100vh;
+  background-attachment: fixed;
+  animation: bganimation 30s infinite;
+}
+
+@keyframes bganimation {
+  0% {
+    background-position: -100% -100%, 200% 200%, -100% 200%, 200% -100%;
+  }
+  50% {
+    background-position: 150% 100%, -200% 100%, 100% 0%, 0% 100%;
+  }
+  100% {
+    background-position: -100% -100%, 200% 200%, -100% 200%, 200% -100%;
+  }
+}

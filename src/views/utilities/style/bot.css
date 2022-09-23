@@ -1,0 +1,52 @@
+.form-switch .form-check-input {
+  width: 5rem !important;
+  height: 2rem !important;
+  margin: 1rem 0;
+}
+
+.form-switch {
+  margin: 1rem 0 !important;
+}
+
+.form-check-label {
+  margin: 0.5rem 0.5rem;
+}
+
+.form-check .form-check-input {
+  float: none !important;
+}
+
+.form-switch {
+  padding-left: 0 !important;
+}
+
+.req-button {
+  color: #c44d56;
+  background: transparent;
+  border: 2px solid #c44d56;
+  padding: 0.5rem 2rem !important;
+  border-radius: 1rem;
+}
+
+.border-light {
+  border-radius: 1rem;
+  background: #3c2527;
+}
+
+.price-layout {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.backward {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  background: none;
+  border: none;
+}
+
+.g-mar-0{
+  margin: 0 !important;
+}

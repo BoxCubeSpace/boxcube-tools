@@ -1,0 +1,24 @@
+.wallet-address{
+    background: #d3d3d3;
+    padding: 4px 10px;
+    border-radius: 4px;;
+}
+
+.header-control {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    width: 80%;
+    -webkit-box-pack: end;
+}
+
+.connect-button {
+    background: #2196f3;
+    color: #616161;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+
+.connect-button:hover {
+    background: #1e88e5;
+}

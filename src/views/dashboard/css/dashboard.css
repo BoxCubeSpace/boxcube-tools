@@ -1,0 +1,23 @@
+.border-light {
+  border-radius: 1rem;
+  background: #3c2527;
+}
+
+.bg-card {
+  /* background-color: #262626; */
+  border-radius: 4px;
+  color: #fafafa;
+  background: rgba(196, 77, 86, 0.15);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(5.4px);
+  -webkit-backdrop-filter: blur(5.4px);
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+.req-button {
+  color: #c44d56;
+  background: transparent;
+  border: 2px solid #c44d56;
+  padding: 0.5rem 2rem !important;
+  border-radius: 1rem;
+}
