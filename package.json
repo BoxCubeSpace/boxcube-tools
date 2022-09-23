@@ -1,6 +1,9 @@
 {
     "name": "launchapp",
     "version": "3.0.1",
+    "engines": {
+      "node": "16.15.1"
+    }
     "private": true,
     "dependencies": {
         "@emotion/cache": "^11.4.0",
