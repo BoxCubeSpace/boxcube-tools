@@ -7,7 +7,6 @@ import { Provider } from "react-redux";
 // project imports
 import * as serviceWorker from "./serviceWorker";
 import App from "./App";
-import Comingsoon from "./views/comingsoon/index";
 import { store } from "./store";
 import { initContract } from "./utils";
 import { getWalletAccount } from "./resources/contract";
